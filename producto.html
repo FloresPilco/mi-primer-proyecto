@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Remera Básica de Algodón | Tienda Virtual</title>
+    <link rel="icon"  href="img/logo.jpg" />
+    <link rel="stylesheet" href="css/estilos.css">
     <meta
     name="description"
     content="Remera básica de algodón 100%, disponible en 3 colores."
@@ -14,9 +16,10 @@
     <h1>Tienda Virtual</h1>
     <nav>
         <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-        <li><a href="checkout.html">Finalizar compra</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Nosotros.html">Quienes somos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="checkout.html">Realizar compra</a></li>
         </ul>
     </nav>
     </header>
@@ -29,7 +32,7 @@
     <article>
         <figure>
         <img
-            src="https://placehold.co/600x450?text=Remera"
+            src="img/remera.jpg"
             alt="Remera básica de algodón blanca"
         />
         <figcaption>Remera básica, vista frontal.</figcaption>
@@ -50,12 +53,60 @@
         </ul>
 
         <form action="#" method="post">
-        <label for="talle">Talle</label>
+        <label for="talle">Talla</label>
         <select id="talle" name="talle" required>
-            <option value="">Elegí un talle</option>
+            <option value="">Elegí un talla</option>
             <option value="s">S</option>
             <option value="m">M</option>
             <option value="l">L</option>
+        </select>
+
+        <label for="cantidad">Cantidad</label>
+        <input
+            type="number"
+            id="cantidad"
+            name="cantidad"
+            min="1"
+            max="10"
+            value="1"
+            required
+        />
+
+
+    <nav aria-label="Ruta de navegación">
+        <a href="producto.html">zapatillas</a> &gt; zapatillas urbanas  &gt; precios accesibles
+    </nav>
+
+    <article>
+        <figure>
+        <img
+            src="img/calzado.jpg"
+            alt="zapatillas urbanas"
+        />
+        <figcaption>zapatillas urbanas, vista frontal.</figcaption>
+        </figure>
+
+        <h2>zapatillas urbanas</h2>
+        <p>Categoría: Calzados</p>
+        <p><strong>s/109.92</strong></p>
+        <p>
+        Zapatillas urbanas confeccionadas con materiales duraderos y suela ligera para caminar comodo.
+        </p>
+
+        <h3>Características</h3>
+        <ul>
+        <li>tiene una suela ligera</li>
+        <li>Lavable a máquina</li>
+        <li>Disponible en 3 colores</li>
+        </ul>
+
+        <form action="#" method="post">
+        <label for="talle">Talla</label>
+        <select id="talle" name="talle" required>
+            <option value="">Elegí un talla</option>
+            <option value="35">35</option>
+            <option value="34">34</option>
+            <option value="42">42</option>
         </select>
 
         <label for="cantidad">Cantidad</label>
